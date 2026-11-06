@@ -18,7 +18,7 @@ Análisis de los más de 17 millones de personas beneficiarias del Fondo Naciona
 - **Territorio:** después de la Región Metropolitana, las regiones con más beneficiarios extranjeros son Antofagasta y Tarapacá, por delante de regiones con mucha más población total como Valparaíso y Biobío.
 - **Envejecimiento:** las personas de 60 años o más pasaron de 19,2% a 21,4% del total, y el tramo de 0 a 9 años bajó de 13,0% a 9,9%.
 - **Tipo de asegurado:** los carentes de recursos bajaron de 23,7% a 17,9% entre 2018 y 2025.
-- **Renta por sexo:** entre las personas con renta informada, las mujeres se concentran más en los tramos bajos y los hombres en los altos.
+- **Renta por sexo (2025):** entre las personas con renta informada, el 20,0% de las mujeres está en el tramo más bajo (hasta $249.999), contra el 10,0% de los hombres. En el tramo de $1.500.000 o más se invierte: 8,2% de las mujeres y 12,4% de los hombres.
 
 ## Validación
 
@@ -75,9 +75,13 @@ El archivo [`power-bi/Fondo_Nacional_de_Salud_2018-2025.pbix`](power-bi/) se abr
 |---|---|
 | ![Demografía](img/02_demografia.png) | ![Migración](img/03_migracion.png) |
 
-| Laboral |
-|---|
-| ![Laboral](img/05_laboral.png) |
+| Territorio | Laboral |
+|---|---|
+| ![Territorio](img/04_territorio.png) | ![Laboral](img/05_laboral.png) |
+
+| Renta | Notas metodológicas |
+|---|---|
+| ![Renta](img/06_renta.png) | ![Notas](img/07_notas.png) |
 
 ## Cómo reproducirlo
 
