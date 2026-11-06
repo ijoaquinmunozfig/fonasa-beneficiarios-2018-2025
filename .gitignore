@@ -1,0 +1,16 @@
+# Entorno de Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Datos originales e intermedios (muy pesados; se descargan desde FONASA)
+base-beneficiarios-data/
+base-beneficiarios-data-renombrada/
+base-beneficiarios-limpia/
+resultados-beneficiarios-data/
+*.csv
+
+# Archivos de sistema y respaldos
+.DS_Store
+Thumbs.db
+~$*
