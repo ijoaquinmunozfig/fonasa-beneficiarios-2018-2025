@@ -103,4 +103,4 @@ FONASA, Datos Abiertos, bases de población beneficiaria a diciembre de cada añ
 
 ## Autor
 
-Joaquín Ignacio Muñoz Figueroa · Ingeniero Civil Industrial, Universidad de Concepción
+Joaquín Ignacio Muñoz Figueroa · Ingeniero Civil Industrial, Universidad de Concepción · LinkedIn: [linkedin.com/in/joaquin-munoz-figueroa-cl](https://www.linkedin.com/in/joaquin-munoz-figueroa-cl)
