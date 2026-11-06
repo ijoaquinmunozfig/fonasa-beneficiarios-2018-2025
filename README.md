@@ -89,7 +89,7 @@ El archivo [`power-bi/Fondo_Nacional_de_Salud_2018-2025.pbix`](power-bi/) se abr
 2. Crea un entorno virtual e instala las dependencias:
    ```bash
    python -m venv .venv
-   pip install pandas pyarrow jupyter
+   pip install -r requirements.txt
    ```
 3. Ajusta la ruta de la carpeta del proyecto al inicio de cada notebook (están escritas como rutas absolutas de Windows).
 4. Ejecuta los notebooks en orden: 01, 02 y 03.
