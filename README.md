@@ -1,4 +1,4 @@
-# Población beneficiaria FONASA 2018–2025
+# Población beneficiaria FONASA 2018-2025
 
 Análisis de los más de 17 millones de personas beneficiarias del Fondo Nacional de Salud (FONASA) de Chile, a partir de los microdatos abiertos que publica la institución: limpieza y unificación de 8 años de datos en Python, y un tablero interactivo en Power BI.
 
@@ -6,7 +6,7 @@ Análisis de los más de 17 millones de personas beneficiarias del Fondo Naciona
 
 ## Resumen
 
-- **Datos:** 8 archivos anuales (2018–2025), una fila por persona, con corte a diciembre. Suman unos 19 GB y casi 125 millones de filas.
+- **Datos:** 8 archivos anuales (2018-2025), una fila por persona, con corte a diciembre. Suman unos 19 GB y casi 125 millones de filas.
 - **Problema:** cada periodo viene con formatos distintos: separador (`|` o `,`), codificación (latin-1 o utf-8), nombres de columna, cortes de edad y de renta, y escritura de las categorías.
 - **Solución:** un flujo en Python (pandas + Parquet) que procesa año por año, unifica todo a un esquema común y agrega los datos en una tabla de 3,77 millones de filas para Power BI, sin perder ninguna persona.
 - **Resultado:** un tablero de 7 páginas: Resumen, Demografía, Migración, Territorio, Laboral, Renta y Notas metodológicas.
@@ -69,7 +69,7 @@ Cada año se procesa por separado para no cargar los 19 GB en memoria a la vez.
 
 ## Tablero
 
-El archivo [`power-bi/Fondo_Nacional_de_Salud_2018-2025.pbix`](power-bi/) se abre con Power BI Desktop. En cada página, el gráfico de evolución muestra 2018–2025 y los demás visuales muestran el año seleccionado.
+El archivo [`power-bi/Fondo_Nacional_de_Salud_2018-2025.pbix`](power-bi/) se abre con Power BI Desktop. En cada página, el gráfico de evolución muestra 2018-2025 y los demás visuales muestran el año seleccionado.
 
 | Demografía | Migración |
 |---|---|
@@ -85,7 +85,7 @@ El archivo [`power-bi/Fondo_Nacional_de_Salud_2018-2025.pbix`](power-bi/) se abr
 
 ## Cómo reproducirlo
 
-1. Descarga las bases de beneficiarios 2018–2025 desde el portal de [Datos Abiertos de FONASA](https://datosabiertos.fonasa.cl/dimensiones-beneficiarios/) y deja los CSV en una carpeta `base-beneficiarios-data/`, con nombres `beneficiarios_fonasa_<año>.csv`.
+1. Descarga las bases de beneficiarios 2018-2025 desde el portal de [Datos Abiertos de FONASA](https://datosabiertos.fonasa.cl/dimensiones-beneficiarios/) y deja los CSV en una carpeta `base-beneficiarios-data/`, con nombres `beneficiarios_fonasa_<año>.csv`.
 2. Crea un entorno virtual e instala las dependencias:
    ```bash
    python -m venv .venv
@@ -103,7 +103,7 @@ Python 3.14 · pandas · pyarrow · Jupyter · Power BI Desktop · DAX
 
 ## Fuente
 
-FONASA, Datos Abiertos, bases de población beneficiaria a diciembre de cada año (2018–2025). Uso sujeto a los términos y condiciones del portal de datos abiertos de FONASA.
+FONASA, Datos Abiertos, bases de población beneficiaria a diciembre de cada año (2018-2025). Uso sujeto a los términos y condiciones del portal de datos abiertos de FONASA.
 
 ## Autor
 
