@@ -26,9 +26,9 @@ Los totales por año coinciden con las cifras publicadas:
 
 | Año | Beneficiarios | Referencia |
 |---|---|---|
-| 2018 | 14.102.709 | — |
-| 2019 | 14.841.577 | — |
-| 2020 | 15.142.528 | — |
+| 2018 | 14.102.709 | - |
+| 2019 | 14.841.577 | - |
+| 2020 | 15.142.528 | - |
 | 2021 | 15.233.814 | Crecimiento de 0,6% respecto a 2020, igual al informado por FONASA |
 | 2022 | 15.613.584 | Igual a la cifra de FONASA publicada en la prensa |
 | 2023 | 16.229.898 | 10 personas de diferencia con el informe de FONASA |
